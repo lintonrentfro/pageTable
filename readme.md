@@ -14,13 +14,6 @@ pageTable is a JS module for fetching a JSON object of homogeneously structure d
 
 ## Usage
   * Include the pageTable module somewhere in your js.
-  * For each table you need, create a settings object like this:
-      var settings = {
-        "dataURL" : "http://domain.com/api/data",
-        "rowsPerPage" : 10,
-        "paginationLinksPerGroup" : 5,
-        "paginationDiv" : "the_div_where_you_want_the_pagination_to_go",
-        "tableDiv" : "the_div_where_you_want_the_table_to_go"
-      };
+  * For each table you need, create a settings object like the example provided in pagetable.js.
   * On the page where you want that table to appear, use this after the DOM has loaded:
       pageTable.startup(settings);
