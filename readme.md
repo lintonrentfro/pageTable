@@ -1,7 +1,7 @@
 # pageTable
 =========
 
-pageTable is a JS module for fetching a JSON object of homogeneously structure data and display it in a sortable table with pagination.
+pageTable is a JS module for fetching a JSON object of homogeneously structured data and display it in a sortable table with pagination.
 
 ## About pageTable
   * 3.6Kb minified
